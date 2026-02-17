@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+ENV/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+wallpapers/
+*.heic
+*.zip
+*.tar.gz
+*.pyc
