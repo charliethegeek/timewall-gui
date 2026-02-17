@@ -1,6 +1,6 @@
 # Timewall GUI
 
-A beautiful, user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plasma.
+A user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plasma.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
