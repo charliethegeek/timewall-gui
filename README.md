@@ -232,8 +232,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/timewall-gui/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/timewall-gui/discussions)
+- **Issues:** [GitHub Issues](https://github.com/charliethegeek/timewall-gui/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/charliethegeek/timewall-gui/discussions)
 - **timewall docs:** [bcyran/timewall](https://github.com/bcyran/timewall)
 
 ## 🎯 Roadmap
