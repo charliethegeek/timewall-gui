@@ -1,6 +1,6 @@
 # Timewall GUI
 
-A user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plasma.
+A beautiful, user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plasma.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue)
@@ -28,6 +28,33 @@ A user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plas
 ## 🚀 Quick Start
 
 ### Installation
+
+#### Option 1: .deb Package (Recommended for Ubuntu/Debian/Kubuntu)
+
+Download and install the .deb package:
+
+```bash
+# Download the latest release
+wget https://github.com/charliethegeek/timewall-gui/releases/download/v1.0.0/timewall-gui_1.0.0_all.deb
+
+# Install
+sudo apt install ./timewall-gui_1.0.0_all.deb
+
+# Launch
+timewall-gui
+```
+
+The .deb package automatically:
+- ✅ Installs all dependencies
+- ✅ Creates desktop menu entry
+- ✅ Sets up the application
+
+**Note:** You still need to install timewall separately:
+```bash
+cargo install timewall
+```
+
+#### Option 2: Install Script (For other distros or custom setups)
 
 ```bash
 git clone https://github.com/charliethegeek/timewall-gui.git
@@ -184,6 +211,19 @@ but the security limit has been set to 1000 items
 - Update libheif to newer version if available
 
 ## 🗑️ Uninstall
+
+### If installed via .deb package:
+
+```bash
+sudo apt remove timewall-gui
+```
+
+This removes the GUI but keeps:
+- Your wallpaper collection (~/Pictures/dynamic_wallpapers)
+- Configuration files
+- timewall binary
+
+### If installed via install.sh:
 
 ```bash
 chmod +x uninstall.sh
