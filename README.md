@@ -30,7 +30,7 @@ A user-friendly GUI for managing Apple dynamic wallpapers on Linux with KDE Plas
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/timewall-gui.git
+git clone https://github.com/charliethegeek/timewall-gui.git
 cd timewall-gui
 chmod +x install.sh
 ./install.sh
@@ -64,7 +64,7 @@ The installer will:
 ### Option 1: Official Collection
 
 Download our curated collection of 19 verified wallpapers:
-- [Download from Releases](https://github.com/YOUR_USERNAME/timewall-gui/releases/latest)
+- [Download from Releases](https://github.com/charliethegeek/timewall-gui/releases/latest)
 
 Extract and import via the GUI's "Import HEIC Files" button.
 
